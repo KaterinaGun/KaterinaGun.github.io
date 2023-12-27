@@ -1,0 +1,30 @@
+body {
+    background-color : #f5edf7;
+}
+
+#art {
+
+        width: 600px;
+        height: 525px;
+        padding: 40px;
+        border: 2px solid;
+        font-size: 32px;
+        justify-content: center;
+        align-items: center;
+}
+
+#artBlock {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 24px;
+    grid-column-gap: 16px;
+    padding: 300px;
+    margin-bottom: 1rem;
+}
+
+img {
+    weight: 600px;
+    height: 525px;
+}
